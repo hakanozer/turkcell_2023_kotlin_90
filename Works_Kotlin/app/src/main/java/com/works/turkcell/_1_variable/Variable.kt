@@ -1,4 +1,4 @@
-package com.works.turkcell
+package com.works.turkcell._1_variable
 
 fun main(args: Array<String>) {
 
