@@ -88,7 +88,7 @@ fun main(args: Array<String>) {
     }
 
     // || -> veya -> sol taraf yada sağ tarafdaki koşullardan her hangi birinin sağlanması durumunda
-    
+
 
 
 
