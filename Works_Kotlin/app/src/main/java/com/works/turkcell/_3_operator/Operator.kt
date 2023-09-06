@@ -88,8 +88,12 @@ fun main(args: Array<String>) {
     }
 
     // || -> veya -> sol taraf yada sağ tarafdaki koşullardan her hangi birinin sağlanması durumunda
+    status = q > 11 || w > 10
+    println("|| $status")
 
-
+    // || vs &&
+    status = q > 5 && w > 11 || w > 11 && q > 10
+    println("if $status")
 
 
 }
