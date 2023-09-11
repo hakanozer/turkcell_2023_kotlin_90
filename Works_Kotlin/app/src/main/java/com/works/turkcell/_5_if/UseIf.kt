@@ -11,13 +11,14 @@ fun main(args: Array<String>) {
     }
     println(end)
 
-    if (true) {
+    var status = false
+    if (!status) {
         println("if true")
     } else {
         println("if false")
     }
 
-    var result = if ( city.equals("Hatay") && code.equals("Kotlin") ) "Success" else "Fail"
+    var result = if ( city.equals("Hatayx") && code.equals("Kotlin") ) "Success" else "Fail"
     println(result)
 
 }
