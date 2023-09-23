@@ -26,7 +26,8 @@ fun main(args: Array<String>) {
 
 //birinci soru
 fun hasTriangle() {
-    val edgeOne = getNumber("Kenarların arasına virgül girerek üç sayı giriniz:").toString()
+    println("Kenarların arasına virgül girerek üç sayı giriniz:")
+    val edgeOne = readln()
     val loginNumbers = edgeOne.split(",")
     val numbersList = arrayListOf<Int>()
     if (loginNumbers.size == 3) {
