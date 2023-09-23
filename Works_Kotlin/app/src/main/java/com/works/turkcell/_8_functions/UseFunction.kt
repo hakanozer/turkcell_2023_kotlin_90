@@ -22,6 +22,8 @@ fun main(args: Array<String>) {
 
     println(status)
     println(profileName)
+
+    fncRec(0)
 }
 
 // Fonksiyonlar
@@ -47,3 +49,13 @@ fun read() : String {
     val name = scanner.nextLine()
     return name
 }
+
+var number = 10
+fun fncRec(num: Int) {
+    number--
+    if (number >= 0) {
+        println("Call - $number")
+        fncRec(num)
+    }
+}
+
