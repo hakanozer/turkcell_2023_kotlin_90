@@ -1,0 +1,67 @@
+1 - Kullanıcıdan 3 Kenar Değeri Alıyorsun
+Bu 3 Değerden Üçgen Yapılıp Yapılamayacağını
+Test Edip Sonucu Bastıracaksınız
+
+Her 2 Kenarın Toplamı Diğer 3. Kenara Eşit/Fazlaysa
+Üçgen Olur
+
+
+2 - Kullanıcıya Aşağıdaki Menuyu Gösteriyorsunuz
+
+	Menu :
+	1 - F -> C
+	2 - C -> F
+	    Secim : 
+		
+	Kullanıcı 1'i Seçerse Fahrenheit Değerini Alıyorsunuz
+	Girilen Değeri Dereceye Çevirip
+	x F = y C Şeklinde Ekranda Gösteriyorsunuz
+	
+	Eğer 2. Seçenek Seçildiyse, C Değerini Alıyorsunuz
+	Girilen Değeri Fahrenheit'a Çevirip
+	x C = y F Şeklinde Ekranda Gösteriyorsunuz
+	
+	Eğer Kullanıcı Menu Seceneginde 1,2 Dışında Bir Sayı
+	Girerse Ekrana Hatalı Seçim Mesajını Bastırmalısınız
+	
+	
+3 - Kullanıcıdan 2 Sayı Alıyorsunuz
+	Bu 2 Büyük ve Küçük Olanını Ekrana Bastırıyorsunuz
+	Eğer Sayılar Eşitse Sayılar Eşittir Mesajını
+	Ekrana Bastırıyorsunuz
+	
+4 - Kullanıcıdan Bir N Sayısı Alıyorsunuz
+	1'den N'e Kadar Olan Sayıların Toplamını
+	Ekrana Bastırıyorsunuz (Formulü Araştırın)
+	
+5 - Kullanıcıdan 3 Haneli Bir Sayı
+	Alıyorsunuz. Bu Sayının
+	Basamaklarının Toplamını
+	Yazdırıyorsunuz
+	
+	Örnek : 
+	Sayı Girin : 245
+	2 + 4 + 5 = 11
+	
+6 - Kullanıcıdan 3 Haneli Bir Sayı
+	Alıyorsunuz. Bu Sayının
+	Rakamlarını Tersten Yazdırıyorsunuz
+	Örnek : 
+	Sayı Girin : 743
+	347
+	
+	
+	
+7 -	Kullanıcıdan Kac Sayi Girecegini Ogren (N)
+    Kullanıcıdan N Tane Sayı Al
+    
+    Sayı Girişi Bittikten Sonra Aşağıdakine Benzer Bir Rapor Olustur
+    Girilen 17 Sayıdan :
+    8 Tanesi Pozitif
+    6 Tanesi Negatif
+    En Büyüğü : 67
+    En Küçüğü : -9
+    10 Tanesi Çift
+    7 Tanesi Tek
+    Toplamları : 567
+    Ortalamaları : 33,345
