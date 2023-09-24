@@ -10,6 +10,7 @@ fun main(args: Array<String>) {
 
     // lambda sample
     val fncLambda : (Int, String) -> Int = { num, data -> data.length + num  }
+    val fncLambdaControl : () -> Unit = { println("fncLamdaControl Call") }
     charCall(10, "I'm Lambda", fncLambda)
 }
 
