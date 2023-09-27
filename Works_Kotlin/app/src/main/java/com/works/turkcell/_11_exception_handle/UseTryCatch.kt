@@ -2,6 +2,7 @@ package com.works.turkcell._11_exception_handle
 
 import java.io.File
 
+
 fun main(args: Array<String>) {
 
     // Try - Catch
@@ -54,6 +55,9 @@ fun main(args: Array<String>) {
     }
 
     println("File This Line Call")
+
+
+
 
     try {
         val sm = sum(40, 50)
