@@ -57,3 +57,5 @@ method yazın
 11 - kullanıcıdan iki int[] değer alan
 bu arraylerdeki ortak elemanların
 sayısını döndüren bir method yazın
+
+12 - bir sayıyı sıfıra bölmeye çalışırken karşılaşılan bir hata durumunu ele almak için nasıl bir try-catch bloğu oluşturursunuz? (Sefa Satiloglu)
