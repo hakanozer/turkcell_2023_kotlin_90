@@ -59,3 +59,6 @@ bu arraylerdeki ortak elemanların
 sayısını döndüren bir method yazın
 
 12 - bir sayıyı sıfıra bölmeye çalışırken karşılaşılan bir hata durumunu ele almak için nasıl bir try-catch bloğu oluşturursunuz? (Sefa Satiloglu)
+
+13 - kullanıcıdan bir sayi alan ve bu sayıyı ekrana gösteren bir değer alın girilen değerin sayı olup olmadığını 
+try-cath ile kontrol edip hata yönetimini sağlayın. (Görkem Arslanboğan)
