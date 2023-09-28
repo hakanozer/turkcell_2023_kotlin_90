@@ -65,3 +65,5 @@ try-cath ile kontrol edip hata yönetimini sağlayın. (Görkem Arslanboğan)
 
 
 14- İki tam sayıyı bölen bir method yazın ve bölenin sıfır olma durumunu try-catch bloğu ile ele alın. Eğer bölen sıfır ise "Bölme işlemi sıfıra bölünemez." şeklinde bir hata mesajı döndürsün. Aksi takdirde sonucu döndürsün. (Eyüp Balcan) 
+
+15- Kullanıcıdan iki değer alan ve bu değerlerin ortalamasını hesaplayıp ekrana bastıran bir metod yazın.Eğer girilen inputlar integer değilse "Lütfen integer değerler giriniz." diye uyarı ekrana bastırsın ve method input almaya baştan başlasın. (Çağatay Çınar Lökçe)
