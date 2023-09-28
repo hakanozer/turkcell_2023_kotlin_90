@@ -72,3 +72,5 @@ try-cath ile kontrol edip hata yönetimini sağlayın. (Görkem Arslanboğan)
  uyarısı veren Try-catch alıştırması yapınız.(Çağdaş Alıngan)
 
 17- Bir kullanıcıdan alınan metin verisini tamsayıya dönüştüren bir kotlin prgoramı yazınız. (Keremcan Karakaya)
+
+18- Kullanıcıdan alınan 2 verinin çarpımını bulan bir program yazınız.Verilerin integer olmaması durumunu try-catch bloğu ile kontrol ediniz. (Davut Karakuş)
