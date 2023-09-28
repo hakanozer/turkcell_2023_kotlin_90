@@ -87,3 +87,5 @@ tamsayıların toplamını yazdırın.(Burak Geçimli)
 22-Mükemmel sayıları bulan bir try-catch algoritması yazınız.(Furkan Akı)
 
 23- Try catch kullanarak kullanıcının girdiği bir sayının karekökünü hesaplayan program yazınız. Negatif sayı girilmediğinden emin olunuz.(Büşra Tutku Özdemir)
+
+24- Kullanıcıdan 3 basamaklı sayılar isteyiniz ve bu sayılardan armstrong sayısı bulan bir algoritma olusturunuz ve verilerin sayı girilmesini de Try catch yapısı ile kontrolünü sağlayınız.(Kemal Çetinkaya)
