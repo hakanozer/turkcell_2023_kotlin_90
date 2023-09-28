@@ -80,6 +80,6 @@ try-cath ile kontrol edip hata yönetimini sağlayın. (Görkem Arslanboğan)
 
 
 
-20-kullanıcıdan ,0 ile 20 arasından bir sayi seçin sayının tek mi çift mi olduğunu bulunuz,
+20-kullanıcıdan ,0 ile 20 arasında sayilar seçin sayıların tek mi çift mi olduğunu bulunuz,
 Bulduğunuz sayıların tek ve çift olanların aritmetik ortalamasını bulunuz,
 Try Catch İle Doğrulayın.(Ali Mert Kireçci)
