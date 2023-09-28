@@ -77,9 +77,11 @@ try-cath ile kontrol edip hata yönetimini sağlayın. (Görkem Arslanboğan)
 
 19- Kullanıcıdan dört basamaklı bir sayı alınız. Alınan sayının 2 ile bölümünden kalanın sıfır olup olmadığını try-catch ile kontrol eden bir program yazınız.(Hatice Kılıç)
 
-
-
-
 20-kullanıcıdan ,0 ile 20 arasında sayilar seçin sayıların tek mi çift mi olduğunu bulunuz,
 Bulduğunuz sayıların tek ve çift olanların aritmetik ortalamasını bulunuz,
 Try Catch İle Doğrulayın.(Ali Mert Kireçci)
+
+21- Kullanıcıdan bir listenin boyutunu ve elemanlarını tamsayılar ile doldurmasını isteyin.Geçersiz boyut ve eleman girişini Try-catch yapısı ile kontrol edin.Ve listenin çift indeksteki ve tek indeksteki
+tamsayıların toplamını yazdırın.
+
+
