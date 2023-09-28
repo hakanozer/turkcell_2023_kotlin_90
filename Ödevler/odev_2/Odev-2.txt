@@ -91,3 +91,6 @@ tamsayıların toplamını yazdırın.(Burak Geçimli)
 24- Kullanıcıdan 3 basamaklı sayılar isteyiniz ve bu sayılardan armstrong sayısı bulan bir algoritma olusturunuz ve verilerin sayı girilmesini de Try catch yapısı ile kontrolünü sağlayınız.(Kemal Çetinkaya)
 
 25- Kullanıcıdan pozitif bir tam sayı alınız ve bu sayının faktöriyelini hesaplayınız. Kullanıcı metin veya negatif bir tam sayı girişi yaptığında try-catch ile hata mesajları görüntüleyiniz. (Mehmet Şahin)
+
+26 - Kullanıcıdan yaşını girmesini talep ederek sayı girmesini bekleyiniz. Girilen yaşa göre kullanıcının ehliyet alabilip alamayacağını kullanıcıya bildiriniz. Eğer kullancı ehliyet alacak yaşta değilse kaç sene sonra ehliyet alabileceğini kullanıcıya bildiriniz. Örnek senaryoda ehliyet alabilme yaşını 18 olarak kabul edelim ve kullanıcı, yaşını 16 olarak girsin. Bu durumda beklenen çıktı "Maalesef ehliyet alacak yaşta değilsiniz, 2 yıl sonra ehliyet almaya hak kazanabilirsiniz!" olacaktır.
+(Girilen değerin sayısal bir değer ve yaş olabilitesi kontrol edilmelidir.) (Umutcan EMEK)
