@@ -84,4 +84,6 @@ Try Catch İle Doğrulayın.(Ali Mert Kireçci)
 21- Kullanıcıdan bir listenin boyutunu ve elemanlarını tamsayılar ile doldurmasını isteyin.Geçersiz boyut ve eleman girişini Try-catch yapısı ile kontrol edin.Ve listenin çift indeksteki ve tek indeksteki
 tamsayıların toplamını yazdırın.(Burak Geçimli)
 
+22-Mükemmel sayıları bulan bir try-catch algoritması yazınız.(Furkan Akı)
+
 
