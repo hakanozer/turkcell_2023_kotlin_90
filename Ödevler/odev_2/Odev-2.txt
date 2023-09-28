@@ -82,6 +82,6 @@ Bulduğunuz sayıların tek ve çift olanların aritmetik ortalamasını bulunuz
 Try Catch İle Doğrulayın.(Ali Mert Kireçci)
 
 21- Kullanıcıdan bir listenin boyutunu ve elemanlarını tamsayılar ile doldurmasını isteyin.Geçersiz boyut ve eleman girişini Try-catch yapısı ile kontrol edin.Ve listenin çift indeksteki ve tek indeksteki
-tamsayıların toplamını yazdırın.
+tamsayıların toplamını yazdırın.(Burak Geçimli)
 
 
