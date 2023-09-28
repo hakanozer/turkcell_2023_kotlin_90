@@ -86,4 +86,4 @@ tamsayıların toplamını yazdırın.(Burak Geçimli)
 
 22-Mükemmel sayıları bulan bir try-catch algoritması yazınız.(Furkan Akı)
 
-
+23- Try catch kullanarak kullanıcının girdiği bir sayının karekökünü hesaplayan program yazınız. Negatif sayı girilmediğinden emin olunuz.(Büşra Tutku Özdemir)
