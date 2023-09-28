@@ -76,3 +76,6 @@ try-cath ile kontrol edip hata yönetimini sağlayın. (Görkem Arslanboğan)
 18- Kullanıcıdan alınan 2 verinin çarpımını bulan bir program yazınız.Verilerin integer olmaması durumunu try-catch bloğu ile kontrol ediniz. (Davut Karakuş)
 
 19- Kullanıcıdan dört basamaklı bir sayı alınız. Alınan sayının 2 ile bölümünden kalanın sıfır olup olmadığını try-catch ile kontrol eden bir program yazınız.(Hatice Kılıç)
+20-kullanıcıdan ,0 ile 20 arasından bir sayi seçin sayının tek mi çift mi olduğunu bulunuz,
+Bulduğunuz sayıların tek ve çift olanların aritmetik ortalamasını bulunuz,
+Try Catch İle Doğrulayın.(Ali Mert Kireçci)
