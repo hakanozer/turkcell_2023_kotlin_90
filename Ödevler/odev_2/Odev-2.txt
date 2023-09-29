@@ -101,3 +101,5 @@ sonra ehliyet alabileceğini kullanıcıya bildiriniz. Örnek senaryoda ehliyet 
 ve kaçıncı soruyu yazdığınızın yeniden girilmesini sağlayınız. (soru sayısını 50 olarak alabilirsiniz.) (Berin Aslantaş)
 
 28- Kullanıcıdan ‘ Lys  ’ puanını girmesini isteyin. Girilen puan aralığını kontrol edin. Puanı 400-430 arasında ise ‘ Mühendislik Fakültesi’ne yerleşebilirsiniz ’ , değilse ‘ Üzülme, Vazgeçme ! 😊 ’mesajını ekrana basın. Ve Finally ile ‘ İşlem Tamamlandı ’ mesajını yazdırın. ( Kullanıcıdan alınan değerin 0, null ve String olma durumlarını kontrol edin )  ( ESMA SALKIM )
+
+29-Bir Quiz uygulaması geliştirin bir soru sorun doğru cevap verince tebrik mesajı , yanlış cevap verince hata mesajı versin. ( Oğuz Baran Şahingil)
