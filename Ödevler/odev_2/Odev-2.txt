@@ -97,4 +97,5 @@ sonra ehliyet alabileceğini kullanıcıya bildiriniz. Örnek senaryoda ehliyet 
 2 yıl sonra ehliyet almaya hak kazanabilirsiniz!" olacaktır.
 (Girilen değerin sayısal bir değer ve yaş olabilitesi kontrol edilmelidir.) (Umutcan EMEK)
 
-27- Sizden buraya kaçıncı soruyu yazdığınızı örnek olarak girmeniz isteniyor. Geçersiz bir sayı veya karakter girildiğinde hata mesajı bastırınız ve kaçıncı soruyu yazdığınızın yeniden girilmesini sağlayınız. (soru sayısını 50 olarak alabilirsiniz.) (Berin Aslantaş)
+27- Sizden buraya kaçıncı soruyu yazdığınızı örnek olarak girmeniz isteniyor. Geçersiz bir sayı veya karakter girildiğinde hata mesajı bastırınız 
+ve kaçıncı soruyu yazdığınızın yeniden girilmesini sağlayınız. (soru sayısını 50 olarak alabilirsiniz.) (Berin Aslantaş)
