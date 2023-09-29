@@ -96,3 +96,5 @@ tamsayıların toplamını yazdırın.(Burak Geçimli)
 sonra ehliyet alabileceğini kullanıcıya bildiriniz. Örnek senaryoda ehliyet alabilme yaşını 18 olarak kabul edelim ve kullanıcı, yaşını 16 olarak girsin. Bu durumda beklenen çıktı "Maalesef ehliyet alacak yaşta değilsiniz,
 2 yıl sonra ehliyet almaya hak kazanabilirsiniz!" olacaktır.
 (Girilen değerin sayısal bir değer ve yaş olabilitesi kontrol edilmelidir.) (Umutcan EMEK)
+
+27- Sizden buraya kaçıncı soruyu yazdığınızı örnek olarak girmeniz isteniyor. Geçersiz bir sayı veya karakter girildiğinde hata mesajı bastırınız ve kaçıncı soruyu yazdığınızın yeniden girilmesini sağlayınız. (soru sayısını 50 olarak alabilirsiniz.) (Berin Aslantaş)
