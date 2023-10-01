@@ -133,3 +133,8 @@ Puanı 400-430 arasında ise ‘ Mühendislik Fakültesi’ne yerleşebilirsiniz
 ( Kullanıcıdan alınan değerin 0, null ve String olma durumlarını kontrol edin )  ( ESMA SALKIM )
 
 29-Bir Quiz uygulaması geliştirin bir soru sorun doğru cevap verince tebrik mesajı , yanlış cevap verince hata mesajı versin. ( Oğuz Baran Şahingil)
+
+30- Kullanıcıdan, ad soyad, yaş ve mail istediğiniz 3 değer alınız. 
+Try catch yapısını kullanarak, mailin doğru yazılılıp yazılmadığını, 
+ad ve soy adı birleştirip küçükterek kullanıcı adı oluşturmayı ve yaş 18 ve üzeri girildiyse
+bilgileri listeleyip kaydı tamamlayınız aksi takdirde kayıt kabul edilmesin. (Muhammed Zeyd Satılmış)
