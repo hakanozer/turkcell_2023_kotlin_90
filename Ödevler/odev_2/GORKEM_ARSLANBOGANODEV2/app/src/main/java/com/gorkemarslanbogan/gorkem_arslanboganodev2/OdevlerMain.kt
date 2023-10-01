@@ -4,19 +4,6 @@ import java.util.*
 
 fun main(args: Array<String>) {
 
-    val dcOdevler = DcOdevler10Soru()
-
-//    println(dcOdevler.isPrime(21)) // başarılı
-//
-//    println(dcOdevler.Soru2(1,5)) // basarili
-//
-//    println(dcOdevler.Soru3(5,10)) //basarili
-
-//    println(dcOdevler.Soru4(555)) // basarili
-
-//    println(dcOdevler.palindromeSorusu(1223221)) //basarili
-
-
      val odevler = Odevler2()
 
 //    println(odevler.isPrime(2)) //succes
