@@ -521,7 +521,7 @@ fun quiz(){
     try {
         println("2+2 işleminin sonucu kaçtır?")
         val cevap = sc.nextInt()
-        if (cevap == dogruCevap){
+        if (cevap.equals(dogruCevap)){
             println("Tebrikler! Doğru cevap verdiniz")
         }
         else{
@@ -529,6 +529,45 @@ fun quiz(){
         }
     }catch (ex: InputMismatchException){
         println("Lütfen geçerli bir cevap giriniz.")
+    }finally {
+        println("İşlem tamamlandı.")
     }
 }
 
+// 30-)
+fun kayit(){
+    val emailRegex = "^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+\$"
+    try {
+        val sc = Scanner(System.`in`)
+        println("Ad: ")
+        val ad = sc.nextLine()
+        println("Soyad: ")
+        val soyad = sc.nextLine()
+        println("Yaş: ")
+        val yas = sc.nextInt()
+        println("Email: ")
+        val email = readLine()
+
+        if ( email!!.matches(emailRegex.toRegex()) && email != null ){
+            if ( yas >= 18){
+                val kullaniciAdi = (ad.lowercase()+soyad.lowercase()).trimIndent()
+                println("""
+                    Kayıt başarılı.
+                    
+                    İsminiz: $ad
+                    Soyisminiz:$soyad
+                    Yaşınız: $yas
+                    Email: $email
+                    Kullanıcı Adınız: $kullaniciAdi
+                """.trimIndent())
+            }else{
+                println("18 yaşından küçük olduğunuz için kaydınız kabul edilmemiştir.")
+            }
+        }else{
+            throw InputMismatchException()
+        }
+    }catch (ex: InputMismatchException){
+        println("Lütfen geçerli değerler giriniz.")
+    }
+
+}
