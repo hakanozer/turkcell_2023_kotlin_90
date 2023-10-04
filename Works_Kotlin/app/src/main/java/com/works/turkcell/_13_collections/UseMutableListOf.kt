@@ -1,5 +1,7 @@
 package com.works.turkcell._13_collections
 
+import java.util.*
+
 fun main(args: Array<String>) {
 
     // mutableListOf
@@ -16,6 +18,9 @@ fun main(args: Array<String>) {
     arr.add("Adana")
     arr.add("Antalya")
     arr.add("Bursa")
+    arr.add(" ")
+    arr.add(" ")
+    arr.add(" ")
 
     // add index item
     arr.add(1, "Ankara")
@@ -40,7 +45,34 @@ fun main(args: Array<String>) {
     arr.remove("Adana")
     arr.removeFirst()
 
+    // replaceAll
+    Collections.replaceAll(arr, " ", "Empty!")
+    arr.replaceAll{ it -> it.uppercase() }
+    //arr.replaceAll { it -> it.replace(" ","Empty!").uppercase() }
 
+    arr.set(6, "ŞanlıUrfa")
+
+    arr.removeIf {
+        it -> !it.lowercase().contains("a")
+    }
     println(arr)
 
+    val list = dataResult()
+    val start = System.currentTimeMillis()
+    list.parallelStream().forEach {
+        Thread.sleep(1)
+        println(it)
+    }
+    val end = System.currentTimeMillis()
+    val between = end - start
+    println("End Time - $between")
+
+}
+
+fun dataResult() : MutableList<String>  {
+    val arr = mutableListOf<String>()
+    for ( i in 0..20000 ) {
+        arr.add("item-$i")
+    }
+    return arr
 }
