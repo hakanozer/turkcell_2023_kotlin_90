@@ -19,7 +19,7 @@ Dosyada Kaç Tane :
 C.txt Adında Bir Dosya Oluşturup, Input Dosyasının İçindeki Cift Sayıları Yazan,
 T.txt Adında Bir Dosya Olusturup, Tek Sayıları Yazan Bir Uygulama Yazın
 
-#4. http://tux.reeder.com.tr/dump.rar Dosyasını İndirin. İçindeki dump.txt Dosyasını
+#4. İçindeki dump.txt Dosyasını
 Masaüstüne Çıkartın.
 
 Uygulamaya Bu Dosyayı Okuttuğunuz Zaman,
