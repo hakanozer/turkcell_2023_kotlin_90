@@ -1,0 +1,3 @@
+sefa deneme dosya olusturma.
+ alt satira indim 
+ yeni bir satir olusturdum.
