@@ -8,7 +8,7 @@ fun main(args: Array<String>) {
 
     //1. Soru
 
-    val soru1 = "D:\\ödev3\\sayilar.txt" // Dosya adı
+    val soru1 = "D:\\ödev3\\sayilar.txt" 
     val dosya1 = File(soru1)
 
     if (dosya1.exists()) {
@@ -46,7 +46,7 @@ fun main(args: Array<String>) {
 
     // 2. Soru
 
-    val soru2 = "D:\\ödev3\\sayilar.txt" // Dosya adı
+    val soru2 = "D:\\ödev3\\sayilar.txt" 
     val dosya2 = File(soru2)
 
     if (!dosya2.exists()) {
@@ -82,7 +82,7 @@ fun main(args: Array<String>) {
     val ciftSayilar = mutableListOf<Int>()
     val tekSayilar = mutableListOf<Int>()
 
-    // Giriş dosyasını oku ve çift ve tek sayıları ayır
+   
     File(dosya3).forEachLine {
         val sayi = it.toIntOrNull()
         if (sayi != null) {
@@ -94,14 +94,14 @@ fun main(args: Array<String>) {
         }
     }
 
-    // C.txt dosyasına çift sayıları yaz
+   
     File(cDosyasi).printWriter().use { dosya ->
         ciftSayilar.forEach { dosya.println(it) }
     }
 
     println("Cift sayılar C.txt dosyasına yazıldı.")
 
-    // T.txt dosyasına tek sayıları yaz
+   
     File(tDosyasi).printWriter().use { dosya ->
         tekSayilar.forEach { dosya.println(it) }
     }
