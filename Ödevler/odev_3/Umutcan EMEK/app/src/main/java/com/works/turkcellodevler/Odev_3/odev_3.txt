@@ -1,0 +1,64 @@
+DOSYA SORULARI :
+
+#1.
+Notepad++ İle Bir Dosya Oluşturun
+İçine 15 Tane Sayı Yazın (Arada Pozitif, Negatif Sayılarda Olsun)
+
+Uygulamanıza Bu Dosyanın Yolunu Vereceksiniz.Uygulamanız Ekrana
+Dosyada Kaç Tane :
+- Pozitif
+- Negatif
+- Tek
+- Çift Sayı Olduğunu Bastıracak.
+
+
+#2. 1. Sorudaki Dosyayı -1000, +1000 Arası 500 Tane Random Sayıyla Dolduran Bir Uygulama Yazın.
+
+
+#3. 2. Soruda Oluşturduğunuz Dosyayı Açıp Okuyan, Input Dosyasının Bulunduğu Klasore
+C.txt Adında Bir Dosya Oluşturup, Input Dosyasının İçindeki Cift Sayıları Yazan,
+T.txt Adında Bir Dosya Olusturup, Tek Sayıları Yazan Bir Uygulama Yazın
+
+#4. İçindeki dump.txt Dosyasını
+Masaüstüne Çıkartın.
+
+Uygulamaya Bu Dosyayı Okuttuğunuz Zaman,
+Bu Dosyada Kaç Satır, Kaç Kelime Var,
+Harflerin Kaçı Sessiz, Kaçı Sesli Bu Bilgileri Konsola Yazan Bir Uygulama Yazın
+
+
+#5. 4. Sorudaki dump.txt yi, dump_rev_1.txt Dosyasına Tersten Yazdırın
+
+#6. 4. Sorudaki dump.txt yi, dump_rev_2.txt Dosyasına, Kelime Sırasını Bozmadan Tersten Yazdırın
+
+Örnek : ali topu at 		-->  ila upot ta
+
+#7. 4. Sorudaki dump.txt'de Her Kelimeden Kaç Kez Geçtiğini,
+En Uzun Kelimenin Hangisi Olduğunu, Kaç Harf Olduğunu
+En Kısa Kelimenin Hangisi Olduğunu ve Kaç Harf Olduğunu Ekrana Bastırın
+
+
+#8. Kullanıcıdan Bir Klasörün Yolunu Alın.
+O Klasör ve O Klasörün Altındaki Tüm Klasörlerde Dahil Olmak Üzere  
+(Burada Recursive Bir Method Yazmanız Gerek)
+Toplam Boyutu Bulup Ekrana Yazdırın
+
+#9. Kullanıcıdan Bir Kelime Alın
+8. Sorudaki Recursive Dosya Dolaşma Mantığıyla, Dosya Adında Kullanıcının Girmiş Olduğu Kelimeyi İçeren
+Dosyaların;
+
+Arama Sonucu Kaç Dosyanın Bulunduğunu,
+Adını,
+Bulunduğu Klasörü
+Boyutunu Ekrana Bastırın
+
+
+
+#10. Kullanıcıdan Bir Kelime Alın
+8. Sorudaki Recursive Dosya Dolaşma Mantığıyla, Dosya İçeriğinde Kullanıcının Girmiş Olduğu Kelimeyi İçeren
+Dosyaların;
+
+Arama Sonucu Kaç Dosyanın Bulunduğunu,
+Adını,
+Bulunduğu Klasörü
+Boyutunu Ekrana Bastırın
