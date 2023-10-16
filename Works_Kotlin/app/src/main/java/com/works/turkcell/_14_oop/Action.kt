@@ -11,7 +11,7 @@ class Action {
 
     constructor() {
         name = "Erkan"
-        println("constructor Empty Call $name")
+        println("constructor Empty Call $name - $status")
     }
 
     constructor(name: String) {
@@ -32,5 +32,7 @@ class Action {
     fun fnc2() {
         println(name)
     }
+
+    var status = true
 
 }

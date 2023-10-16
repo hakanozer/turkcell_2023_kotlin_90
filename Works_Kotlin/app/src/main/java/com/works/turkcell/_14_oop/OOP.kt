@@ -26,5 +26,8 @@ fun main(args: Array<String>) {
     val profile = Profile(100, "Ali Kemmal")
     profile.fnc1()
 
+    val userModel = UserModel()
+    userModel.setName("Mehmet")
+    userModel.getName()
 
 }
