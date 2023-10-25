@@ -1,0 +1,14 @@
+7.	Class, Object , Abstrack, İnterface nedir açıklayınız.
+
+Class = Nesnenin nasıl davranacağını ve taşıdığı özellikleri tanımlar. Örneğin hayvan sınıfı için hayvanların türü,
+yaşam alanı gibi özelliklerini ve ilgili davranışları temsil eden metotları içeren bir sınıf olabilir.
+
+Object = Nesneler sınıfların özelliklerini ve işlevlerini kullanarak programda çalışan öğeleri temsil eder.
+
+Abstrack = Soyut sınıflar diğer sınıfların temelini oluşturur. Kendi başlarına nesneleri oluşturulamazlar.
+Abstracklar daha çok bir şablondur ve bu alt sınıfların ortak özelliklerini ve metotlarını tanımlamak için kullanılırlar.
+
+İnterface = Arayüz bir sınıfın uyması gereken metotları ve davranışları tanımlayan bir davranıştır.
+Sınıflar bir arayüzü implemente ederek bu arayüzde tanımlanan metotları sağlamak zorundadır.
+Arayüzler sınıfın türünü belirtmeksizin belirli bir davranışı garanti etmek için kullanılır.
+Çoklu kalıtım sağlamak için kullanılırlar.
