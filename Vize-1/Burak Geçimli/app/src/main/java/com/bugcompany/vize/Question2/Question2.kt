@@ -3,8 +3,12 @@ package com.bugcompany.vize.Question2
 class Question2 {
 
     fun reverseNumber(number: Int): Int {
-        val strNumber = number.toString().reversed()
-        return strNumber.toInt()
+    val strNumber = number.toString()
+    if (strNumber.length != 5) {
+        throw IllegalArgumentException("Girilen sayı 5 haneli olmalıdır.")
+    }
+    val reversedStr = strNumber.reversed()
+    return reversedStr.toInt()
     }
 
 
