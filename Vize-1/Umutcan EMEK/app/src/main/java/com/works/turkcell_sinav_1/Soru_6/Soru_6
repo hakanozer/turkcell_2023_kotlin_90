@@ -1,0 +1,5 @@
+6.	Personellerin maaşlarını hesaplayan bir uygulama yapmanız beklenmektedir. Burada memur çalıştığı
+ek saat ücreti üzerinden 0.3 müdür 0.6 ve genel müdür 0.8 ile çarpılmakta ve maaşları bu şekilde
+hesaplanmaktadır. Memur: 1000 TL müdür: 3000 TL genel Müdür 5.000 TL maaş almaktadır. Buna göre esnek
+ek saatlere göre bu çalışanların maaşlarını hesaplayacak bir model kurunuz. Burada OOP mantığına göre
+gidilmeli ve inheritance ve polimorfizm teknikleri kullanılmalıdır.

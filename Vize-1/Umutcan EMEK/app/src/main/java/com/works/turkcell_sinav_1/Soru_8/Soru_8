@@ -1,0 +1,10 @@
+8.	Kotlinde Erişim belirteçleri (Access Modifiers) ne iş yapar açıklayınız.
+
+Erişim belirteçleri bir sınıfın, değişkenin, metotun veya paketin erişilebilirliğini kontrol eder.
+
+public: Herkesin erişebileceği varsayılan erişim belirtecidir.
+private: Sadece tanımlandığı sınıf içinde erişilebilir.
+protected: Tanımlandığı sınıf ve alt sınıflar içinde erişilebilir.
+internal: Aynı modülde yer alan tüm sınıfların erişebileceği bir erişim belirtecidir.
+
+Erişim belirteçleri programdaki verinin istenmeyen değişikliklerden korunmasına yardımcı olur.
