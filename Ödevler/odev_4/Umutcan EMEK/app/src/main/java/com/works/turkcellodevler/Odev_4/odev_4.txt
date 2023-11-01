@@ -1,0 +1,50 @@
+Collection Soruları:
+
+1. 1-49 Arası, 6 Farklı Sayı Seçip Gösterecek Bir Uygulama Yapın
+
+2. 2 Tane Çok Uzun String Değeriniz Var
+
+String a  = "23456789876543234567890987654567890";
+String b =  "99999999999988888888882222222688981";
+
+Bu İki Sayiyi Toplayacak Bir Uygulama Yazın
+
+
+3. Kisi Diye Bir Nesneniz Olsun Ve ad, soyad, tel Özellikleri Olsun
+
+Uygulamanızda Kullanıcıya Aşağıdaki Menuyu Göstereceksiniz :
+
+1 - Tüm Kayıtları Göster
+2 - Yeni Kayıt Ekle
+3 - Kayıt Sil
+4 - Kayıt Güncelle
+5 - Tümünü Temizle
+6 - Kayıt Ara (Ad veya Soyada Göre)
+7 - Kayıt Ara (Telefon Numarasına Göre)
+8 - Çıkış
+
+
+Uygulamanız Sonsuz Döngü İçerisinde Yukarıdaki Menüyü Gösterecek
+Kullanıcı 1-8 Dışında Bir Değer Girerse, Hatalı Seçim Diye Mesaj Gösterip Tekrar Menuyu
+Gösterecek
+
+Kisi Instance'larını Bir List'te Tutacaksınız. Ve Bu ArrayList Üzerinde Çalışacaksınız.
+
+
+4. Bir Kotlin List oluşturun ve bu listede bulunan elemanları ekrana yazdırmak için bir döngü kullanarak her elemanı dolaşan bir program yazın.
+
+5. Bir Set ve bir List oluşturun. Set'teki benzersiz elemanları, List'teki sırayla bulunan elemanları koruyarak birleştirin. Sonuçta nasıl bir koleksiyon elde edersiniz, bunu ekrana yazdırın.
+
+6. Verilen bir List içinde belirli bir değerin kaç kez tekrarlandığını hesaplayan bir Kotlin işlevi yazın.
+
+7. İçinde çeşitli yaşları bulunduran bir List oluşturun. Bu yaşları gruplayarak yaş gruplarını içeren bir Map oluşturun. Örneğin, "18-24" yaş aralığındaki kişileri bir grup olarak tutun.
+
+8. Bir List'teki tüm elemanların toplamını hesaplayan bir Kotlin işlevi yazın. Ayrıca, bu işlevin sadece pozitif sayıları dikkate almasını sağlayın.
+
+9. Bir List içinde null değerler de dahil olmak üzere karmaşık veriler bulunduğunu varsayalım. Bu verileri filtreleyerek null olmayan elemanları yeni bir List'e ekleyen bir işlev yazın.
+
+10. İçinde metin içeren bir List oluşturun. Bu metinleri uzunluğuna göre sıralayarak en kısa ve en uzun metinleri bulun.
+
+11. Bir List içinde rastgele sayılar bulunsun. Bu sayıları büyükten küçüğe sıralayarak sıralama işlemini gerçekleştiren bir Kotlin işlevi yazın.
+
+12. İki Set'i karşılaştırarak, her iki Set'in de içinde bulunan ortak elemanları bulan bir Kotlin programı yazın.
