@@ -1,0 +1,4 @@
+Inheritance ve Polymorphism:
+a. "Hayvan" adında bir üst sınıf (base class) oluşturun ve bu sınıftan türetilmiş farklı hayvan türlerini temsil eden
+alt sınıflar (örneğin, "Köpek" ve "Kedi") oluşturun. Polimorfizm kullanarak bu hayvanları bir dizi içinde depolayın ve
+özelliklerine nasıl erişeceğinizi gösterin.

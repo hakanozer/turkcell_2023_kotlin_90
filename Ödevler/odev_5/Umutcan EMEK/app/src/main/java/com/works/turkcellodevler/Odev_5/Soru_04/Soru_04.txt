@@ -1,0 +1,5 @@
+Interface (Arayüz):
+a. Arayüzler (interface) yazılım geliştirmede hangi amaçlarla kullanılır? Bir interface tanımlayın ve bu interface'i
+uygulayan bir sınıfı göstererek nasıl çalıştığını açıklayınız.
+b. Birden fazla interface'i aynı sınıf içinde nasıl uygularsınız? Bu çoklu arayüz uygulamalarının neden önemli olduğunu açıklayınız.
+

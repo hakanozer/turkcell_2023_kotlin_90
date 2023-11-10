@@ -1,0 +1,6 @@
+a. Soyut sınıfların yazılım geliştirmedeki rolünü açıklayınız. Soyut sınıfların nasıl tanımlandığını ve
+soyut metotlarının nasıl kullanıldığını gösteren bir örnek veriniz.
+
+
+-Soyut sınıflar, diğer sınıfların temelini oluşturur ve bu sınıflardan türetilen alt sınıflar için belirli davranışları zorlar.
+Yazılımın daha iyi organize edilmesini aynı zamanda daha az hata yapılmasını sağlar.

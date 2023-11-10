@@ -1,0 +1,6 @@
+a. Yazılım geliştirmede "inheritance" (miras) nedir ve ne amaçla kullanılır? Bir örnek vererek açıklayınız.
+
+
+-Inheritance yani kalıtım bir sınıfın özelliklerinin ve davranışlarının başka bir sınıfa aktarılmasıdır.
+Bu şekilde kod tekrarından kaçınmış olur ve kodun yeniden kullanılabilirliğini artırırız.
+Kalıtım mevcut sınıfın özelliklerini ve davranışlarını diğer sınıflara aktarma işlevini görür.

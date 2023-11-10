@@ -1,0 +1,5 @@
+a. Polimorfizm yazılım geliştirmede ne anlama gelir ve neden önemlidir? Bir örnek ile açıklayınız.
+
+-Polimorfizm farklı nesnelerin aynı arayüzü kullanarak farklı şekillerde davranabilmesidir. Nesnelerin türüne
+bakılmaksızın aynı yöntemleri çağırabilmenizi ve bu yöntemlerin ilgili nesnenin türüne göre farklı
+davranışlar sergilemesini sağlar. Polimorfizm kodun daha esnek, sürdürülebilir ve anlaşılabilir olmasına yardımcı olur.
