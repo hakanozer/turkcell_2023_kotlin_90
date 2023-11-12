@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:viewBindingIgnore="true"
+    tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/text_tarih"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginVertical="4dp"
+            android:gravity="center"
+            android:textSize="16sp"
+            />
+        <ListView
+            android:id="@+id/ll_ilceler"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop = "8dp"
+            android:dividerHeight="6dp"
+            android:layout_gravity="center">
+        </ListView>
+</LinearLayout>
