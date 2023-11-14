@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Days-5</string>
+    <string name="btnAlert">Alert</string>
+    <string name="alertTitle">Title</string>
+    <string name="alertDetail">Alert Detail</string>
+</resources>
