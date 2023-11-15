@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="11dp"
+    app:cardBackgroundColor="#FFFFFF"
+    app:cardCornerRadius="11dp"
+    app:cardElevation="11dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="11dp">
+
+        <TextView
+            android:id="@+id/textViewEczanelerInfo"
+            android:layout_width="274dp"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Eczaneler"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="119dp"
+            android:layout_height="94dp"
+            app:srcCompat="@drawable/eczane" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
