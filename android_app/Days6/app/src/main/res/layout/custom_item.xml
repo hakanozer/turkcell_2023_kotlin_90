@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/r_currencyName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="TextView"
+            android:textColor="#E91E63"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/r_forexBuying"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textColor="#9C27B0"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/r_forexSelling"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textColor="#9C27B0"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/r_banknoteBuying"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textColor="#3F51B5"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/r_banknoteSelling"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textColor="#3F51B5"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
