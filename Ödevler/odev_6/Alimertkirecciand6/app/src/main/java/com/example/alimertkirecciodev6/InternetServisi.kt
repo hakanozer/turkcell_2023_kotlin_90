@@ -8,7 +8,7 @@ class InternetServisi
    // [0]>>Yerine Select de yazabiliriz.
     companion object {
         private const val Url = "https://gaziantepeczaciodasi.com.gaziantepeo.org.tr/nobetci-eczaneler"
-        private const val timeout = 1500
+        private const val timeout = 15000
           var tarih: String? = null
     }
 
