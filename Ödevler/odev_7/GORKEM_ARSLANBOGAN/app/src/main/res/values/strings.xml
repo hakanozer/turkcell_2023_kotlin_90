@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WeaterApp</string>
+    <string name="sehir_ismi_girin">Şehir ismi girin</string>
+    <string name="peryot">Peryot: </string>
+    <string name="max_sicaklik">Max Sıcaklık: </string>
+    <string name="min_sicaklik">Min Sıcaklık: </string>
+    <string name="durum">Durum: </string>
+</resources>

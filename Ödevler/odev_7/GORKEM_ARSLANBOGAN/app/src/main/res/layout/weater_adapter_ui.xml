@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:padding="8dp"
+    android:elevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="6dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textViewCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Şehir"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/textViewPeryot"
+            android:layout_width="wrap_content"
+            android:layout_marginVertical="4dp"
+            android:layout_height="wrap_content"
+            android:text="Peryot"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/textViewHavaDurumu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hava Durumu"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"/>
+
+
+        <TextView
+            android:id="@+id/textViewMaxSıcaklık"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="4dp"
+            android:text="Max Sıcaklık: "
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/textViewMinSıcaklık"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Min Sıcaklık: "
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp"/>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
