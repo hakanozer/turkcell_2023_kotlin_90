@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+    android:elevation="7dp"
+    app:cardBackgroundColor="#C9EADB"
+    app:cardCornerRadius="12dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="3°C"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/en_dusukTxt" />
+
+        <TextView
+            android:id="@+id/txt_max"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="55dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="11°C"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/txt_min"
+            app:layout_constraintTop_toBottomOf="@+id/en_dusukTxt2" />
+
+        <ImageView
+            android:id="@+id/img_daytime"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="125dp"
+            android:contentDescription="@string/imgdaytime"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/night" />
+
+        <ImageView
+            android:id="@+id/img_weather"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sun"
+            android:contentDescription="@string/imgweather" />
+
+        <TextView
+            android:id="@+id/txt_city"
+            android:layout_width="105dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="İstanbul"
+            android:textSize="18sp"
+            android:maxLines="1"
+            app:layout_constraintStart_toEndOf="@+id/img_weather"
+            app:layout_constraintTop_toBottomOf="@+id/txt_region" />
+
+        <TextView
+            android:id="@+id/txt_daytime"
+            android:layout_width="90dp"
+            android:layout_height="31dp"
+            android:maxLines="1"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Akşam"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/img_daytime"
+            app:layout_constraintTop_toBottomOf="@+id/timeText" />
+
+        <TextView
+            android:id="@+id/txt_region"
+            android:layout_width="105dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Marmara"
+            android:textColor="#638595"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/img_weather"
+            app:layout_constraintTop_toTopOf="parent"
+            android:maxLines="1" />
+
+        <TextView
+            android:id="@+id/en_dusukTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="11dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="En Düşük"
+            android:textColor="#638595"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_weather" />
+
+        <TextView
+            android:id="@+id/en_dusukTxt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="11dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="En Yüksek"
+            android:textColor="#638595"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/en_dusukTxt"
+            app:layout_constraintTop_toBottomOf="@+id/txt_city" />
+
+        <TextView
+            android:id="@+id/timeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Zaman"
+            android:textColor="#638595"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/img_daytime"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_info"
+            android:layout_width="197dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/poppins_light"
+            android:maxLines="3"
+            android:text="Çok bulutlu, bu akşam ilk saatler aralıklı yağmur ve sağanak yağışlı geçeceği tahmin ediliyor."
+            android:textAlignment="center"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/txt_max"
+            app:layout_constraintTop_toBottomOf="@+id/img_daytime" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

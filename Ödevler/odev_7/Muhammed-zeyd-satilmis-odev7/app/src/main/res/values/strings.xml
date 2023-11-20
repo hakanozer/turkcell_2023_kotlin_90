@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Muhammed-zeyd-satilmis-odev7</string>
+    <string name="search_bar_ara">Ara</string>
+    <string name="act_bar_text">Hava Durumu</string>
+    <string name="imgdaytime">imgDayTime</string>
+    <string name="imgweather">imgWeather</string>
+</resources>
