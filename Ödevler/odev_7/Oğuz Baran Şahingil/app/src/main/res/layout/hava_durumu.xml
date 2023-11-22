@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+    android:elevation="7dp"
+    app:cardBackgroundColor="#EBF1EB"
+    app:cardCornerRadius="12dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="223dp">
+
+        <TextView
+            android:id="@+id/txt_bolge"
+            android:layout_width="115dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="150dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="#121211"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_ili"
+            android:layout_width="108dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="50dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="#1B1A1A"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/txt_bolge"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_durum"
+            android:layout_width="319dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="12dp"
+            android:background="#EAF0EA"
+            android:text="Durum"
+            android:textAlignment="center"
+            android:textColor="#090808"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_bolge" />
+
+        <TextView
+            android:id="@+id/txt_maks"
+            android:layout_width="159dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="126dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="#121111"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/txt_min"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_durum" />
+
+        <TextView
+            android:id="@+id/txt_min"
+            android:layout_width="150dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="126dp"
+            android:layout_marginBottom="10dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="#131313"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/txt_maks"
+            app:layout_constraintTop_toBottomOf="@+id/txt_durum"
+            app:layout_constraintVertical_bias="0.6" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
