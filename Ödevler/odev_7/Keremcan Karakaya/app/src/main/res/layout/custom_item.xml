@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="#89E19F"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/bolgeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Bölge:"
+        android:textColor="#F30606"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/ilTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="İl:"
+        android:textColor="#EC0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/durumTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Durum: "
+        android:textColor="#352E71"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/maxSicaklikTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Maksimum Sıcaklık:"
+        android:textColor="#151973"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/minSicaklikTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Minimum Sıcaklık:"
+        android:textColor="#2C216A"
+        android:textSize="20sp" />
+</LinearLayout>
