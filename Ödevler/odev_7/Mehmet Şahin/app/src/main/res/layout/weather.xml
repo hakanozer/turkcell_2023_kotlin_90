@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="22dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/bolgeTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:textColor="@color/renk2"
+        android:text="BÖLGE:"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/ilTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="İL: "
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/durumTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="@color/black"
+        android:text="DURUM:"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/maxSicaklikTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Maximum Sicaklik:"
+        android:textColor="@color/renk1"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/minSicaklikTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="@color/renk1"
+        android:text="Minimum Sicaklik:"
+        android:textSize="18sp"
+        />
+</LinearLayout>
