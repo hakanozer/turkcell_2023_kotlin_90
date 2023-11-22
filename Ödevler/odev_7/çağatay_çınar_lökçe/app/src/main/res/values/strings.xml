@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Odev-7</string>
+    <string name="bolge">bolge</string>
+    <string name="peryot">peryot</string>
+    <string name="il">il</string>
+    <string name="durum">durum</string>
+    <string name="maxSicaklik">maxSicaklik</string>
+    <string name="minSicaklik">minSicaklik</string>
+</resources>
