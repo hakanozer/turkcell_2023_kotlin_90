@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E7EDF4"
+    >
+
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="64dp"
+        android:backgroundTint="#A9B1BA"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="7dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins_semibold"
+        android:hint="Enter your Password"
+        android:inputType="textPassword"
+        android:textColorHint="#778ca3"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/singInButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/forgotPasswordTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Forgot Password?"
+        android:textColor="#778ca3"
+        android:textSize="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/singInButton"
+        app:layout_constraintEnd_toEndOf="@+id/singInButton" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="With your social network"
+        android:textColor="#2f3542"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="157dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Remember Me"
+        android:textColor="#778ca3"
+        android:textSize="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/singInButton"
+        app:layout_constraintStart_toStartOf="@+id/singInButton" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Or"
+        android:textColor="#2f3542"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/singInButton" />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#A9B1BA"
+        android:drawableStart="@drawable/profile"
+        android:drawablePadding="4dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins_semibold"
+        android:hint="Enter your Username"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#778ca3"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="New on our platform? "
+        android:textColor="#2f3542"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="@+id/singInButton"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="@+id/singInButton"
+        app:layout_constraintTop_toBottomOf="@+id/singInButton" />
+
+    <ImageButton
+        android:id="@+id/googleButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/style"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/google"
+        app:layout_constraintEnd_toStartOf="@+id/facebookButton"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/singInButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="#5446D0"
+        android:text="SIGN IN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/createAccountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Create on account?"
+        android:textColor="#5446d0"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="@+id/singInButton"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toStartOf="@+id/singInButton"
+        app:layout_constraintTop_toBottomOf="@+id/singInButton" />
+
+    <ImageView
+        android:id="@+id/facebookButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/style"
+        android:backgroundTint="@color/white"
+        android:backgroundTintMode="add"
+        android:src="@drawable/fb"
+        app:layout_constraintEnd_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
