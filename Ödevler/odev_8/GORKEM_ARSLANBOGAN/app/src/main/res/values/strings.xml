@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ecommer1234</string>
+    <string name="str_username">Username</string>
+    <string name="str_password">Password</string>
+    <string name="str_login">Login</string>
+    <string name="str_user_login">User Login</string>
+    <string name="str_product_name">Ürün Adı</string>
+    <string name="str_product_desc">Ürün Açıklaması:</string>
+    <string name="str_product_price">Product Price</string>
+    <string name="str_value_can_not_empty">İlgili Değer Boş Olamaz</string>
+    <string name="str_login_success">Giriş Başarıyla Yapıldı.</string>
+    <string name="str_user_or_password_can_not_empty">Kullanıcı Adı Veya Şifre Boş Olamaz!</string>
+    <string name="str_user_or_password_wrong">Kullanıcı Adı Veya Şifre Yanlış!</string>
+    <string name="str_search_product">Ürün Ara</string>
+    <string name="str_urunler">Tüm Ürünler</string>
+    <string name="str_stok">Stpl</string>
+    <string name="str_fiyat">Fiyat</string>
+    <string name="str_tl">₺</string>
+</resources>
