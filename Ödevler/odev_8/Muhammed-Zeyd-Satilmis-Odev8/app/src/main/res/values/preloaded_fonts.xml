@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alegreya_sans_sc</item>
+        <item>@font/bebas_neue</item>
+        <item>@font/kanit_medium</item>
+        <item>@font/montserrat_alternates_thin</item>
+        <item>@font/poppins_medium</item>
+        <item>@font/quicksand_bold</item>
+        <item>@font/raleway_medium</item>
+    </array>
+</resources>

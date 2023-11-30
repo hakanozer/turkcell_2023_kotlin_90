@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.muhammed_zeyd_satilmis_odev8.fragments.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/route_product"
+            app:destination="@id/productFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/productFragment"
+        android:name="com.example.muhammed_zeyd_satilmis_odev8.fragments.ProductFragment"
+        android:label="fragment_product"
+        tools:layout="@layout/fragment_product">
+        <action
+            android:id="@+id/route_detail"
+            app:destination="@id/productDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/productDetailFragment"
+        android:name="com.example.muhammed_zeyd_satilmis_odev8.fragments.ProductDetailFragment"
+        android:label="fragment_product_detail"
+        tools:layout="@layout/fragment_product_detail">
+        <argument
+            android:name="productArg"
+            app:argType="com.example.muhammed_zeyd_satilmis_odev8.models.Product" />
+    </fragment>
+</navigation>
