@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/product_nav"
+    app:startDestination="@id/productFragment">
+
+    <fragment
+        android:id="@+id/productFragment"
+        android:name="com.example.vize_2.list.ProductFragment"
+        android:label="fragment_product"
+        tools:layout="@layout/fragment_product">
+        <action
+            android:id="@+id/action_productFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.vize_2.detail.DetailFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_detail">
+        <action
+            android:id="@+id/action_detailFragment_to_likeFragment"
+            app:destination="@id/likeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/likeFragment"
+        android:name="com.example.vize_2.like.LikeListFragment"
+        android:label="fragment_like"
+        tools:layout="@layout/fragment_like">
+        <argument
+            android:name="ProductDetailInformation"
+            app:argType="com.example.vize_2.model.ProductDetailInformation />
+    </fragment>
+</navigation>
