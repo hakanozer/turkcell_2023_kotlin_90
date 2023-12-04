@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.bugcompany.dummyjsonapp.ui.product.ProductListFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_product_list" >
+        <action
+            android:id="@+id/action_homeFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.bugcompany.dummyjsonapp.ui.detail.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" >
+        <argument
+            android:name="product_id"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_detailFragment_to_likeFragment"
+            app:destination="@id/likeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/likeFragment"
+        android:name="com.bugcompany.dummyjsonapp.ui.like.LikeFragment"
+        android:label="fragment_like2"
+        tools:layout="@layout/fragment_like2" />
+</navigation>
