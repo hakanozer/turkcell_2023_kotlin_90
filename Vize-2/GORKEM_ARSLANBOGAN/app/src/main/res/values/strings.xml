@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">KotlinVize2</string>
+    <string name="str_product_name">Ürün Adı</string>
+    <string name="str_product_desc">Ürün Açıklaması:</string>
+    <string name="str_product_price">Product Price</string>
+    <string name="str_user_or_password_can_not_empty">Kullanıcı Adı Veya Şifre Boş Olamaz!</string>
+    <string name="str_user_or_password_wrong">Kullanıcı Adı Veya Şifre Yanlış!</string>
+    <string name="str_search_product">Ürün Ara</string>
+    <string name="str_urunler">Tüm Ürünler</string>
+    <string name="str_stok">Stok</string>
+    <string name="str_fiyat">Fiyat</string>
+    <string name="str_puan">Ürün Puanı</string>
+    <string name="str_kategori">Kategori</string>
+    <string name="str_favorilere_eklendi">Ürün favori listenize eklendi..</string>
+    <string name="str_favori_urunler">Favori Ürünler</string>
+    <string name="str_hata">Hata oluştu lütfen daha sonra tekrar deneyiniz</string>
+    <string name="str_tl">₺</string>
+    <string name="str_favori_listem">Favori Listem</string>
+</resources>
