@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.works.berinaslantasvize2.screens.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_productDetailFragment2"
+            app:destination="@id/productDetailFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_cartFragment"
+            app:destination="@id/likedProductsFragment" />
+    </fragment>
+
+    <!-- fragment_product_detail_navigation.xml -->
+
+    <fragment
+        android:id="@+id/productDetailFragment"
+        android:name="com.works.berinaslantasvize2.screens.ProductDetailFragment"
+        android:label="fragment_product_detail"
+        tools:layout="@layout/fragment_product_detail" >
+        <action
+            android:id="@+id/action_productDetailFragment2_to_likedProductsFragment"
+            app:destination="@id/likedProductsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/likedProductsFragment"
+        android:name="com.works.berinaslantasvize2.screens.LikedProductsFragment"
+        android:label="fragment_liked_products"
+        tools:layout="@layout/fragment_liked_products"/>
+</navigation>
