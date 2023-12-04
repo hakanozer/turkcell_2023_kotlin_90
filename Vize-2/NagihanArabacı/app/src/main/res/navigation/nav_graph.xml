@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/productsFragment">
+
+    <fragment
+        android:id="@+id/productsFragment"
+        android:name="com.ao.nagihanarabaci.ui.fragment.ProductsFragment"
+        android:label="fragment_products"
+        tools:layout="@layout/fragment_products" >
+        <action
+            android:id="@+id/detailTrans"
+            app:destination="@id/detailFragment" />
+        <action
+            android:id="@+id/productToFavorite"
+            app:destination="@id/favoriteProductsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteProductsFragment"
+        android:name="com.ao.nagihanarabaci.ui.fragment.FavoriteProductsFragment"
+        android:label="fragment_favorite_products"
+        tools:layout="@layout/fragment_favorite_products" >
+        <argument
+            android:name="products"
+            app:argType="com.ao.nagihanarabaci.models.Products" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.ao.nagihanarabaci.ui.fragment.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" >
+        <argument
+            android:name="product"
+            app:argType="com.ao.nagihanarabaci.models.Product" />
+    </fragment>
+</navigation>
