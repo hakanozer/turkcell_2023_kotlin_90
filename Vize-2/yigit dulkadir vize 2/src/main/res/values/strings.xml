@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sınav</string>
+    <string name="product_image">Ürün Resmi</string>
+    <string name="product_rating">Ürün Değerlendirmesi: %s</string>
+    <string name="product_price">Ürün Fiyatı: %s</string>
+
+</resources>

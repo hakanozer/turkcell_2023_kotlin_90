@@ -1,0 +1,7 @@
+Hocam  favourite products activity   , product, product adapter, product detail activity, product service oluşturdum.
+
+kodlarla da ugraştım ama  sorunları çözmek için yeterli vaktim maalesef olmadı. uygulama istenilen gibi çalışmıyor :(
+
+sizden ricam yinede yazdıgım kodları inceleyebilir misiniz ?  universitedeki  Vizelerden dolayı recyclerview  konusuna da yeterince bakamadım
+
+ondan dolayı bu vizede maalesef zorlandım.
