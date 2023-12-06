@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Odev_88</string>
+
+    <string name="imageview">These are the list of lego minifigures:  Handsome,normal,space,worker..</string>
+    <string name="toggle">This is the handsome minifigure</string>
+    <string name="date"> A worker minifigure ıt become a very famous after the lego movie
+        </string>
+    <string name="rating">This a space minifigure  these are very populer ın 1969 :)</string>
+    <string name="time">This is a normal minifigure  a classic :)
+        </string>
+    <string name="camera">The Android framework includes support for various cameras and camera features available on devices, allowing you to capture pictures and videos in your applications.This document discusses a quick, simple approach to image and video capture and outlines an advanced approach for creating custom camera experiences for your users.</string>
+
+    <string name="textview">A TextView displays text to the user and optionally allows them to edit it.
+        A TextView is a complete text editor, however the basic class is configured to not allow editing.
+        </string>
+    <string name="edit">A TextView displays text to the user and optionally allows them to edit it.
+        A TextView is a complete text editor, however the basic class is configured to not allow editing.
+        </string>
+
+</resources>
