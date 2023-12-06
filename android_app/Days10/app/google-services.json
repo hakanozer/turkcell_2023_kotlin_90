@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "301967537140",
+    "project_id": "days-10",
+    "storage_bucket": "days-10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301967537140:android:6db5d60429a0aaabff3fa1",
+        "android_client_info": {
+          "package_name": "com.works.days_10"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBif2A5y_HI4Xr8PO-jvNx0FvafCJr5JsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
