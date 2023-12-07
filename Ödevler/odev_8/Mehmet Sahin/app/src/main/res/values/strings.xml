@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Digi Vista</string>
+    <string name="KullaniciHint">Username</string>
+    <string name="SifreHint">Password</string>
+    <string name="ButonGirisYap" >Login</string>
+    <string name="AramaYapma">Arama yapabilirsiniz</string>
+</resources>
