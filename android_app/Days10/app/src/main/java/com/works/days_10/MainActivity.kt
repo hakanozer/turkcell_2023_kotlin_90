@@ -7,7 +7,14 @@ import android.util.Log
 import android.widget.Button
 import android.widget.Toast
 import com.google.android.gms.tasks.OnCompleteListener
+import com.google.firebase.database.DataSnapshot
+import com.google.firebase.database.DatabaseError
+import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.database.ValueEventListener
 import com.google.firebase.messaging.FirebaseMessaging
+import com.google.gson.Gson
+import com.works.days_10.models.NoteKey
+import com.works.days_10.models.Notes
 
 class MainActivity : AppCompatActivity() {
 
@@ -49,6 +56,40 @@ class MainActivity : AppCompatActivity() {
                 }
             }
          */
+
+        val note = Notes("Selin", "Bilirler", "selin@mail.com", "12345")
+        // Realtime Database
+        val db = FirebaseDatabase.getInstance().getReference("notes")
+        /*
+        val id = db.push().key
+        db.child(id!!).setValue(note).addOnCompleteListener {
+            Toast.makeText(this, "Add Success", Toast.LENGTH_SHORT).show()
+        }.addOnFailureListener {
+            Toast.makeText(this, "Add Problem!", Toast.LENGTH_SHORT).show()
+        }
+        */
+
+        // Data Select
+        db.addValueEventListener(object : ValueEventListener {
+            override fun onDataChange(snapshot: DataSnapshot) {
+                if (snapshot.exists()) {
+                    snapshot.children.forEach {
+                        it?.let {
+                            val gson = Gson()
+                            val obj = gson.fromJson(it.value.toString(), Notes::class.java)
+                            Log.d("noteVal", it.key!!)
+                            Log.d("item", obj.toString())
+                        }
+
+                    }
+                }
+            }
+
+            override fun onCancelled(error: DatabaseError) {
+                TODO("Not yet implemented")
+            }
+        })
+
 
     }
 
